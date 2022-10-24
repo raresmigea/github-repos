@@ -21,7 +21,7 @@ function App() {
   console.log('LIST: ', list);
 
   return (
-    <div className="App">
+    <div style={{display: 'flex', margin: '20px'}}>
        <Paper sx={{ width: '100%' }}>
          <TableContainer sx={{ maxHeight: 440 }}>
           <Table stickyHeader aria-label="sticky table">

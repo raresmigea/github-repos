@@ -6,8 +6,62 @@
         "link": "https://github.com/reactjs"
     },
     {
-        "name": "name 2",
-        "stars": 12,
+        "name": "reselect",
+        "stars": 7291,
         "forks": 43,
-        "link": "google.com"
+        "link": "https://github.com/reduxjs/reselect"
+    },
+    {
+        "name": "redux",
+        "stars": 31705,
+        "forks": 6581,
+        "link": "https://github.com/reduxjs/redux"
+    },
+    {
+        "name": "recompose",
+        "stars": 2341,
+        "forks": 43,
+        "link": "https://github.com/acdlite/recompose"
+    },
+    {
+        "name": "react-query",
+        "stars": 345,
+        "forks": 111,
+        "link": "https://github.com/TanStack/query"
+    },
+    {
+        "name": "jest",
+        "stars": 80923,
+        "forks": 234,
+        "link": "https://github.com/facebook/jest"
+    },
+    {
+        "name": "mocha",
+        "stars": 2738,
+        "forks": 90,
+        "link": "https://github.com/search?q=mocha"
+    },
+    {
+        "name": "jasmine",
+        "stars": 324,
+        "forks": 141,
+        "link": "https://github.com/jasmine/jasmine"
+    },
+    {
+        "name": "swr",
+        "stars": 1345,
+        "forks": 111,
+        "link": "https://github.com/vercel/swr"
+    },
+    {
+        "name": "next.js",
+        "stars": 8912,
+        "forks": 201,
+        "link": "https://github.com/vercel/next.js"
+    },
+    {
+        "name": "axios",
+        "stars": 574,
+        "forks": 43,
+        "link": "https://github.com/axios/axios"
     }]
