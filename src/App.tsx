@@ -1,8 +1,10 @@
+import { Paper, Table, TableContainer, TablePagination } from '@mui/material';
 import React, { useEffect, useState } from 'react';
 import './App.css';
+import List from './components/list';
 import data from './data/repos.json'; 
 
-interface Account {
+export interface Account {
   name: string;
   stars: number;
   forks: number;
@@ -20,7 +22,13 @@ function App() {
 
   return (
     <div className="App">
-      test
+       <Paper sx={{ width: '100%' }}>
+         <TableContainer sx={{ maxHeight: 440 }}>
+          <Table stickyHeader aria-label="sticky table">
+             {list?.map(element => <List {...element} />)}
+          </Table>
+        </TableContainer>
+        </Paper>
     </div>
   );
 }
