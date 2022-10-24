@@ -13,10 +13,20 @@ export interface Account {
 
 function App() {
 
-  const [list, setList] = useState<Array<Account>|null>(null);
-
+  const [list, setList] = useState<Array<Account>|[]>([]);
+  const [rowsPerPage, setRowsPerPage] = useState(5);
+  const [page, setPage] = useState(0);
   useEffect(()=> 
   setList(data), [])
+
+  const handleChangePage = (event: unknown, newPage: number) => {
+    setPage(newPage);
+  };
+
+  const handleChangeRowsPerPage = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setRowsPerPage(parseInt(event.target.value, 10));
+    setPage(0);
+  };
 
   console.log('LIST: ', list);
 
@@ -25,9 +35,18 @@ function App() {
        <Paper sx={{ width: '100%' }}>
          <TableContainer sx={{ maxHeight: 440 }}>
           <Table stickyHeader aria-label="sticky table">
-             {list?.map(element => <List {...element} />)}
+             {list.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage).map(element => <List {...element} />)}
           </Table>
         </TableContainer>
+        <TablePagination
+          rowsPerPageOptions={[5, 10, 25]}
+          component="div"
+          count={list.length}
+          rowsPerPage={rowsPerPage}
+          page={page}
+          onPageChange={handleChangePage}
+          onRowsPerPageChange={handleChangeRowsPerPage}
+        />
         </Paper>
     </div>
   );
