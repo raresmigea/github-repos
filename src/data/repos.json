@@ -54,6 +54,78 @@
         "link": "https://github.com/vercel/swr"
     },
     {
+        "name": "turborepo",
+        "stars": 2380,
+        "forks": 234,
+        "link": "https://github.com/vercel/turborepo"
+    },
+    {
+        "name": "vercel",
+        "stars": 15,
+        "forks": 901,
+        "link": "https://github.com/vercel/vercel"
+    },
+    {
+        "name": "hyper",
+        "stars": 89,
+        "forks": 21,
+        "link": "https://github.com/vercel/hyper"
+    },
+    {
+        "name": "nx",
+        "stars": 7283,
+        "forks": 1798,
+        "link": "https://github.com/nrwl/nx"
+    },
+    {
+        "name": "build-x",
+        "stars": 2134,
+        "forks": 2419,
+        "link": "https://github.com/codecrafters-io/build-your-own-x"
+    },
+    {
+        "name": "chai",
+        "stars": 809,
+        "forks": 111,
+        "link": "https://github.com/chaijs/chai"
+    },
+    {
+        "name": "cucumber",
+        "stars": 89,
+        "forks": 6790,
+        "link": "https://github.com/cucumber/cucumber-jvm"
+    },
+    {
+        "name": "kafka",
+        "stars": 861,
+        "forks": 213,
+        "link": "https://github.com/apache/cassandra"
+    },
+    {
+        "name": "cassandra",
+        "stars": 992,
+        "forks": 231,
+        "link": "https://github.com/apache/kafka"
+    },
+    {
+        "name": "airflow",
+        "stars": 456,
+        "forks": 1001,
+        "link": "https://github.com/apache/airflow"
+    },
+    {
+        "name": "spark",
+        "stars": 861,
+        "forks": 213,
+        "link": "https://github.com/apache/spark"
+    },
+    {
+        "name": "dubbo",
+        "stars": 671,
+        "forks": 200,
+        "link": "https://github.com/apache/dubbo"
+    },
+    {
         "name": "next.js",
         "stars": 8912,
         "forks": 201,
