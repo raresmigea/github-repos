@@ -28,7 +28,6 @@ function App() {
     setPage(0);
   };
 
-  console.log('LIST: ', list);
 
   return (
     <div style={{display: 'flex', margin: '20px'}}>
